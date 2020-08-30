@@ -15,6 +15,12 @@ function App() {
       </Card>
      
       <News></News>
+      <News></News>
+      <News></News>
+      <News></News>
+      <News></News>
+      <News></News>
+
 
     </div>
   );
