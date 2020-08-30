@@ -4,6 +4,8 @@ import {Card} from 'react-bootstrap'
 
 import './App.css';
 import News from './Component/News/News';
+import Header from './Component/Header/Header';
+import TopHeadline from './Component/TopHeadline/TopHeadline';
 
 
 function App() {
@@ -13,15 +15,12 @@ function App() {
       <Card>
         <Card.Body>How much should I learn?</Card.Body>
       </Card>
-     
+      <TopHeadline></TopHeadline>
       <News></News>
       <News></News>
       <News></News>
+      <Header></Header>
       <News></News>
-      <News></News>
-      <News></News>
-
-
     </div>
   );
 }
