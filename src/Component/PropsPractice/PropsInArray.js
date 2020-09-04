@@ -2,12 +2,12 @@ import React from 'react';
 
 const PropsInArray = (props) => {
 
-    function Click(){
-        alert("Button is clicked");
+    function Click(a){
+        alert(a);
     }
     return (
         <div>
-            <button onClick = {Click()}>Click Me</button>
+            <button onClick = {Click.bind(this,"I am Pada Chagol")}>Click Me</button>
         </div>
     );
 };
