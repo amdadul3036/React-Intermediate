@@ -7,8 +7,7 @@ const PropsInArray = (props) => {
     }
     return (
         <div>
-            <h2>I love fruits: {props.fruits.join(" , ")} </h2>
-            <button onClick = {Click}>Click Me</button>
+            <button onClick = {Click()}>Click Me</button>
         </div>
     );
 };
