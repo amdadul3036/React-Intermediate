@@ -11,10 +11,7 @@ const TopHeadline = () => {
     },[])
     return (
         <div>
-            <h1>Top Headlines: {articles.length}</h1>
-            {
-                articles.map( article => <News article = {article}></News>)
-            }
+            
         </div>
     );
 };
