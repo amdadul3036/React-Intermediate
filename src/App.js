@@ -11,16 +11,11 @@ import TopHeadline from './Component/TopHeadline/TopHeadline';
 function App() {
   return (
     <div>
-      <Button variant="primary">REACT BOOTSTRAP </Button>{' '}
-      <Card>
-        <Card.Body>How much should I learn?</Card.Body>
-      </Card>
+      
       <TopHeadline></TopHeadline>
-      <News></News>
-      <News></News>
-      <News></News>
       <Header></Header>
-      <News></News>
+      <Button variant="primary">REACT BOOTSTRAP </Button>{' '}
+      
     </div>
   );
 }
